@@ -19,6 +19,8 @@ if(mysqli_connect_error()){
 else{
 	$sql = "INSERT INTO users1(username,password)
 	values ('$username' , '$password')";
+	
+	
 	if($conn->query($sql)){
 		echo "NEW record is inserted sucessfully";
 	}
@@ -29,7 +31,7 @@ else{
 }
 }
 else{
-	echo "username should not be empty";
+	echo "password should not be empty";
 	die();
 }
 }
