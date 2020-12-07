@@ -22,9 +22,11 @@
 	<nav>
      <ul>
 	   <li><a href="ABOUT US.php">ABOUT US</a></li>
+	   <li><a href="COURSES.php">COURSES</a></li>
 	   <li><a href="FACULTY.php">FACULTY</a></li>
 	   <li><a href="DEPARTMENTsaloni.php">Departments</a></li>
        <li><a href="GALLERY.php">GALLERY</a></li>
+	   <li><a href="REGISTRATION.php">REGISTRATION</a></li>
 	   <li><a href="CONTACT US.php">CONTACT US</a></li>
 	<button type="button" class="button_1"><a href="#">LOGIN</a></button>
 	</ul>
@@ -44,7 +46,7 @@
 	       <span onclick="register()">Register</span>
 		   <hr id="Indicator">
 	  </div>
-	  <form id="Loginform" option="#" method="post" action="connect.php" onsubmit= return "validation()">
+	  <form id="Loginform" option="#" method="post" action="connect.php" onsubmit=return "validation()">
 	  <div class="form-control_1">
 	  <label><i class="fa fa-user"></i>username</label>
 	         <input type="text" id="username" name="username" placeholder="enter Username" required="">
@@ -60,8 +62,8 @@
              <i class="fa fa-check-circle"></i>
              <i class="fa fa-exclamation-circle"></i></span>
 			 </div>
-			 <button type="Submit" name="update" class="btn1" value="Submit">Login</button>
-			 <a href="update.php">Forget password</a>
+			 <button type="Submit" name="submit" class="btn1" value="Submit">Login</button>
+			 <a href="updateform.php">Forget password</a>
 		 </form>
 	  <form id="Regform">
 	       <div class="form-control_1">
@@ -163,5 +165,5 @@
 
 </script>
  </body>
-</php> 
+
 
