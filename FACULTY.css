@@ -1,0 +1,61 @@
+.title_of_the_page {
+	text-align: center;
+	padding: 20px;
+}
+
+.card{
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px; 
+  margin: 2%;
+  position: relative;
+}
+
+.image img{
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  position: relative;
+}
+
+.content .des {
+	opacity: 0;
+	width: 100%;	
+}
+
+.card:hover .image {
+	transition: 1s;
+	opacity: .2;
+}
+
+.card:hover .content .des {
+	transition: 1s;
+	opacity: 1;
+}
+
+.card-block__title {
+
+}
+
+.card:hover .card-block__title {
+    position: center;
+    margin-top: 100px;
+    -webkit-transform: translateY(-10%);
+    transform: translateY(-10%);
+    transition: -webkit-transform .5s cubic-bezier(.075,.82,.165,1);
+    transition: transform .5s cubic-bezier(.075,.82,.165,1);
+    transition: transform .5s cubic-bezier(.075,.82,.165,1),-webkit-transform .5s cubic-bezier(.075,.82,.165,1);
+}
+
+.card:hover .content {
+    position: relative;
+    margin-left: 20px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: -webkit-transform .5s cubic-bezier(.075,.82,.165,1);
+    transition: transform .5s cubic-bezier(.075,.82,.165,1);
+    transition: transform .5s cubic-bezier(.075,.82,.165,1),-webkit-transform .5s cubic-bezier(.075,.82,.165,1);
+}
