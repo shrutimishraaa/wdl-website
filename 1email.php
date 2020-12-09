@@ -6,32 +6,10 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
-<link rel="stylesheet" href="style.css">
+
 <?php include'links.php' ?>
 	</head>
 <body>
-<header>
-<div class="container">
-<div class="abc">
-<img src="images/logo.png" width="80px"  height="103"  alt="Institute of Technology Logo">
-</div>
-                  <h1 class="head">VIVEKANAND EDUCATION SOCIETY</br>
-			      <em>Institute of Technology</em></h1>
-				  </div>
-</header>
-   <div class="container">
-	<nav>
-     <ul>
-	   <li><a href="ABOUT US.php">ABOUT US</a></li>
-	   <li><a href="FACULTY.php">FACULTY</a></li>
-	   <li><a href="DEPARTMENTsaloni.php">Departments</a></li>
-       <li><a href="GALLERY.php">GALLERY</a></li>
-	   <li><a href="CONTACT US.php">CONTACT US</a></li>
-	<button type="button" class="button_1"><a href="#">LOGIN</a></button>
-	</ul>
-</nav>
-</div>
 
 <?php
 
@@ -74,7 +52,7 @@ if($emailcount>0){
 
             $subject = "Email Activation";
             $body = "Hi, Click here to activate your account 
-			 http://localhost/email/activate.php?token=$token";
+			 http://localhost/management/web/activate.php?token=$token";
              $header = "From: shivanikulkarni509@gmail.com";
 
           if (mail($email, $subject, $body, $header)) {
