@@ -21,12 +21,11 @@
    <div class="container">
 	<nav>
      <ul>
-	 <li><a href="index11.php">HOME</a></li>
      <li><a href="ABOUT US.php">ABOUT US</a></li>
      <li><a href="FACULTY.php">FACULTY</a></li>
      <li><a href="DEPARTMENTsaloni.php">DEPARTMENTS</a></li>
      <li><a href="GALLERY.php">GALLERY</a></li>
-      <li><a href="index.php">ATTENDANCE</a></li>
+      <li><a href="index.php">Attendance</a></li>
 
      <li><a href="CONTACT US.php">CONTACT US</a></li>
   <button type="button" class="button_1"><a href="loginsaloni.php">LOGIN</a></button>
