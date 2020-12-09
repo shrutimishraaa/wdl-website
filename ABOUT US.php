@@ -131,14 +131,15 @@ ul li ul{
 	   <li><a href="ABOUT US.php">ABOUT US</a>
 	   <ul>
 	   <div class="main" style="width:50px;">
-		<li><a href="#">HTML 5</a></li>
-		<li><a href="#">CSS 3</a></li>
-		<li><a href="#">JavaScript</a></li>
+		<li><a href="#">HISTORY</a></li>
+		<li><a href="#">RANKING</a></li>
+		<li><a href="#">VISION</a></li>
 		</div>
 		</ul>
 		</li>
-	   <li><a href="FACULTY.php">FACULTY</a></li>
-	   <li><a href="DEPARTMENTsaloni.php">Departments</a></li>
+	   	   <li><a href="index11.php">HOME</a></li>
+		   <li><a href="FACULTY.php">FACULTY</a></li>
+	   <li><a href="DEPARTMENTsaloni.php">DEPARTMENTS</a></li>
        <li><a href="GALLERY.php">GALLERY</a></li>
 	   <li><a href="CONTACT US.php">CONTACT US</a></li>
 	<button type="button" class="button_1"><a href="loginsaloni.php">LOGIN</a></button>
@@ -177,24 +178,7 @@ ul li ul{
   <p style="color:#0077b3";>To create a vibrant knowledge-oriented environment with innovative teaching practices and to inculcate tradition of socially
   conscious application of technology.</p>
   <p>&nbsp;<br>
- <h2><strong>Mission</strong></h2>
-<div style="color:#990099;">
-<p>To inculcate culture of value based education.<br>
-To enthuse students to develop in an ambient environment of caring and of sharing information.<br>
-To enable students to work towards excellence in their chosen fields with professional bent of mind.</p></div>
-<p>&nbsp;<br>
-<h2><strong>Highlights</strong></h2>
-<p style="color:#990000";>
-<em>The Centre of Excellence labs like&nbsp;<strong>Labview Academy of National Instruments, Big data Analytics lab with Cloudera, 
-VLSI lab with Cadence, Wireless lab with D Link</strong>&nbsp;provides opportunity for students to learn upcoming technologies.&nbsp;
-Lecture series&nbsp;by industry experts from <strong>Accenture Career Day, L&amp;T, Day Technological, etc. 
-</strong>enhances industry-institute interaction.&nbsp;<strong>CII-Tech connect</strong>&nbsp;(Industry Institute Interaction program) conducted<strong>&nbsp;
-by Emerson Network Power</strong>&nbsp;and&nbsp;<strong>Confederation of Indian Industries</strong>&nbsp;in association with&nbsp;<strong>International Society
- of Automation</strong>, Maharashtra State Chapter give students an idea of the skills required to survive and excel in competitive environment with the
- help of technical lectures and management games.&nbsp;&nbsp;<strong>The Research &amp; Development culture</strong>&nbsp;that prevails in this college has 
- helped the students&nbsp;bag seven hardware R &amp; D projects from&nbsp;<strong>Larsen &amp; Toubro</strong>, one project with<strong>&nbsp;
- Kotak Mahindra</strong>, three projects from&nbsp;<strong>IIT Mumbai</strong>&nbsp;and two minor research grants from&nbsp;<strong>Mumbai University</strong></em></p></p>.
- </p>
+ 
 </div>
 
  </section>
